@@ -1,6 +1,6 @@
-{
-    sayHi(name=''){
-        alert(`hello ${name}, How are you`);
+const myObject = {
+    sayHi(name = '') {
+        alert(`Hello ${name}, How are you?`);
         console.log('Done');
     },
-}
+};
